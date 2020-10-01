@@ -1,3 +1,5 @@
+
+document.write("madman");
 function simplifyText(event) {
 
   //Grabs data from input elements
