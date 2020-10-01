@@ -84,6 +84,25 @@ window.onload = function() {
   document.getElementById("input").addEventListener("keyup", onKeyUp);
   simplifyText();
 
+
+
+
+
+
+
+
+
+if (derive) {
+        var derivativeFormula = document.createElement("div");
+        derivativeFormula.className = "formula";
+        derivativeFormula.innerHTML = "y' difiof = " + derivative.prettyFormula();
+        document.getElementById("result").appendChild(derivativeFormula);
+        document.getElementById("result").appendChild(derivativeGraph.getCanvas());
+      }
+
+
+
+
 derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
 };
 derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
