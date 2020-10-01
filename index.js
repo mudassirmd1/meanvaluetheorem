@@ -87,5 +87,5 @@ window.onload = function() {
 derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
 };
 derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
-var mudas= derivative.prettyFormula();
+var mudas= 4566;
 document.write(mudas);
