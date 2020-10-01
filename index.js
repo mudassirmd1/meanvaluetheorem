@@ -55,11 +55,11 @@ function simplifyText(event) {
       if (derive) {
         var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formul4a";
-        derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula();
+        derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula(3);
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
-document.write (derivative.prettyFormula());
+
         
 
 
