@@ -62,8 +62,8 @@ function simplifyText(event) {
 
         var x=2;
         var derivativeFormula = document.createElement("div");
-        derivativeFormula.className = "formula";
-        derivativeFormula.innerHTML =   derivative.prettyFormula(3) + "= "+(x);
+        derivativeFormula.className = "formula1";
+        derivativeFormula.innerHTML =   derivative.prettyFormula(3,2) + "= 5";
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
