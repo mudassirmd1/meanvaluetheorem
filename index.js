@@ -84,3 +84,6 @@ window.onload = function() {
   document.getElementById("input").addEventListener("keyup", onKeyUp);
   simplifyText();
 };
+
+var mudas= derivative.prettyFormula();
+document.write(mudas);
