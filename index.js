@@ -59,7 +59,6 @@ function simplifyText(event) {
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
-document.getElementById("result").appendChild("mffd");
         
 
 
