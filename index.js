@@ -60,7 +60,7 @@ function simplifyText(event) {
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
 
-
+        var x=2;
         var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formula";
         derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula();
