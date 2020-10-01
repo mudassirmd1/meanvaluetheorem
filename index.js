@@ -89,3 +89,10 @@ derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
 derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
 var mudas= 4566;
 document.write(mudas);
+if (derive) {
+        var derivativeFormula = document.createElement("div");
+        derivativeFormula.className = "formula";
+        derivativeFormula.innerHTML = "y' difiof = " + derivative.prettyFormula();
+        document.getElementById("result").appendChild(derivativeFormula);
+        document.getElementById("result").appendChild(derivativeGraph.getCanvas());
+      }
