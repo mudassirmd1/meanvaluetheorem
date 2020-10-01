@@ -83,7 +83,9 @@ window.onload = function() {
   document.getElementById("graph").addEventListener("click", simplifyText);
   document.getElementById("input").addEventListener("keyup", onKeyUp);
   simplifyText();
-};
 
+derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
+};
+derivativeFormula.innerHTML = "y' diff = " + derivative.prettyFormula();
 var mudas= derivative.prettyFormula();
 document.write(mudas);
