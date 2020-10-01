@@ -56,6 +56,17 @@ function simplifyText(event) {
         derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula();
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
+
+
+
+        var derivativeFormula = document.createElement("div");
+        derivativeFormula.className = "formula";
+        derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula();
+        document.getElementById("result").appendChild(derivativeFormula);
+        document.getElementById("result").appendChild(derivativeGraph.getCanvas());
+
+
+
       }
       var inputFormula = document.createElement("div");
       inputFormula.className = "formula";
