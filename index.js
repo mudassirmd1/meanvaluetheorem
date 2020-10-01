@@ -59,14 +59,8 @@ function simplifyText(event) {
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
-
-        var x=2;
-        var derivativeFormula = document.createElement("div");
-        derivativeFormula.className = "formula1";
-        derivativeFormula.innerHTML =   derivative.prettyFormula(3,2) + "= 5";
-        document.getElementById("result").appendChild(derivativeFormula);
-        document.getElementById("result").appendChild(derivativeGraph.getCanvas());
-
+document.write (derivative.prettyFormula());
+        
 
 
       }
