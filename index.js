@@ -1,5 +1,21 @@
 
-document.write("madman");
+function input{
+
+var x=5;
+  var y=6;
+  var sum=x+y;
+  document.getElementById("graph").innerHTML=sum;
+
+
+
+
+
+}
+
+
+
+
+
 function simplifyText(event) {
 
   //Grabs data from input elements
