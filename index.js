@@ -6,7 +6,7 @@ var x=2;
   var sum=x;
   document.getElementById("output").innerHTML=sum;
 
-document.getElementById("output").innerHTML=x^3;
+
 
 
 var str=document.getElementById("input").value; 
