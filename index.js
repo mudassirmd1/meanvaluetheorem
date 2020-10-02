@@ -1,10 +1,10 @@
 
-function input{
+function md(){
 
 var x=5;
   var y=6;
   var sum=x+y;
-  document.getElementById("graph").innerHTML=sum;
+  document.getElementById("output").innerHTML=sum;
 
 
 
