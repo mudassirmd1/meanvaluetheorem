@@ -9,6 +9,12 @@ var x=5;
 
 
 
+var str= document.getElement ById ("input").value; 
+
+
+document.getElementById("output").innerHTML=("<br>"+"Value inside the text box is:"+str);
+
+
 
 }
 
