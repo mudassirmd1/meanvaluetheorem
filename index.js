@@ -4,15 +4,15 @@ function md(){
 var x=5;
   var y=6;
   var sum=x+y;
-  document.getElementById("ouutput").innerHTML=sum;
+  document.getElementById("ouutput").innerHTML=("x");
 
 
 
 
-var str= document.getElement ById ("input").value; 
+var str=document.getElementById("input").value; 
 
 
-document.getElementById("output").innerHTML=("<br>"+"Value inside the text box is:"+str);
+document.getElementById("output").innerHTML=("<br>"+"sum"+str);
 
 
 
