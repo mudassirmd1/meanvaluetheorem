@@ -4,7 +4,7 @@ function md(){
 var x=5;
   var y=6;
   var sum=x+y;
-  document.getElementById("output").innerHTML=sum;
+  document.getElementById("ouutput").innerHTML=sum;
 
 
 
