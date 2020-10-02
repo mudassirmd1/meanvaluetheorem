@@ -4,15 +4,15 @@ function md(){
 var x=5;
   var y=6;
   var sum=x+y;
-  document.getElementById("output").innerHTML=("x");
+  document.getElementById("output").innerHTML=(x);
 
 
 
 
 var str=document.getElementById("input").value; 
-var x=4;
+
 var mm="d/dx"
-var stri=str-mm;
+var stri=str+mm;
 document.getElementById("outputt").innerHTML=("<br>"+str+stri);
 
 
