@@ -1,4 +1,33 @@
 
+function validateForm() {
+var firstName = document.getElementById("firstName").value;
+if(firstName == "") {
+alert("Please enter a value on the text field.");
+return false;
+}
+}
+
+
+
+
+
+var f function (x){
+
+return Math.pow(2,x)+7*x
+}
+var derivative=funetion(f,x){
+var h=0.0001;
+var dy=f(x+h)-f(x);
+var dx= h;
+return dy/dx;
+}
+document.write(derivative(f,2).tofixed(3));
+
+
+
+
+
+
 function md(){
 
 var x=2;
