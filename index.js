@@ -3,10 +3,10 @@ function md(){
 
 var x=2;
   var y=6;
-  var sum=x^2;
+  var sum=x;
   document.getElementById("output").innerHTML=sum;
 
-
+document.getElementById("output").innerHTML=x^3;
 
 
 var str=document.getElementById("input").value; 
