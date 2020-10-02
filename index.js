@@ -10,9 +10,10 @@ var x=5;
 
 
 var str=document.getElementById("input").value; 
-
-
-document.getElementById("outputt").innerHTML=("<br>"+"sum"+str);
+var x=4;
+var mm="d/dx"
+var stri=str-mm;
+document.getElementById("outputt").innerHTML=("<br>"+str+stri);
 
 
 
