@@ -3,7 +3,7 @@ function md(){
 
 var x=2;
   var y=6;
-  var sum=(x^2)+5;
+  var sum=x^2;
   document.getElementById("output").innerHTML=sum;
 
 
