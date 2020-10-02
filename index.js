@@ -1,10 +1,10 @@
 
 function md(){
 
-var x=5;
+var x=2;
   var y=6;
-  var sum=x+y;
-  document.getElementById("output").innerHTML=(x);
+  var sum=(x^2)+5;
+  document.getElementById("output").innerHTML=sum;
 
 
 
