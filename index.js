@@ -4,17 +4,6 @@
 
 
 
-var f = function (x){
-
-return Math.pow(2,x)+7*x
-}
-var derivative = funetion(f,x){
-var h=0.0001;
-var dy=f(x+h)-f(x);
-var dx= h;
-return dy/dx;
-}
-document.getElementById("outt").innerHTML=(derivative(f,2).tofixed(3));
 
 
 
@@ -38,6 +27,26 @@ var stri=str+mm;
 document.getElementById("outputt").innerHTML=("<br>"+str+stri);
 
 
+  var f = function (x){
+
+return Math.pow(2,x)+7*x
+}
+var derivative = funetion(f,x){
+var h=0.0001;
+var dy=f(x+h)-f(x);
+var dx= h;
+return dy/dx;
+}
+document.getElementById("outt").innerHTML=(derivative(f,2).tofixed(3));
+
+  
+  
+  
+  
+  
+  
+  
+  
 
 }
 
