@@ -14,7 +14,7 @@ var dy=f(x+h)-f(x);
 var dx= h;
 return dy/dx;
 }
-document.write(derivative(f,2).tofixed(3));
+document.getElementById("outt").innerHTML=(derivative(f,2).tofixed(3));
 
 
 
