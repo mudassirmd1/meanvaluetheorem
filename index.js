@@ -56,19 +56,19 @@ function simplifyText(event) {
       if (derive) {
         var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formul4a";
-        derivativeFormula.innerHTML = "f(x)' = " + derivative.prettyFormula();
+        derivativeFormula.innerHTML = "f(x)' == " + derivative.prettyFormula();
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
         
 
 
-      }
+      
       
       var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formul4a";
         derivativeFormula.innerHTML = derivative.prettyFormula()+"=f(b)-f(a)/(b-a)";
-        
+        }
 
         
 
