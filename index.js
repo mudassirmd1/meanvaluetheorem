@@ -1,59 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-function md(){
-
-var x=2;
-  var y=6;
-  var sum=x;
-  document.getElementById("output").innerHTML=sum;
-
-
-
-
-var str=document.getElementById("input").value; 
-
-var mm="d/dx"
-var stri=str+mm;
-document.getElementById("outputt").innerHTML=("<br>"+str+stri);
-
-
-  var f = function (x){
-
-return Math.pow(2,x)+7*x
-}
-var derivative = funetion(f,x){
-var h=0.0001;
-var dy=f(x+h)-f(x);
-var dx= h;
-return dy/dx;
-}
-document.getElementById("outt").innerHTML=(derivative(f,2).tofixed(3));
-
-  
-  
-  
-  
-  
-  
-  
-  
-
-}
-
-
-
-
-
 function simplifyText(event) {
 
   //Grabs data from input elements
