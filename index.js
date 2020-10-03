@@ -9,9 +9,11 @@ function simplifyText(event) {
   var x2 = (document.getElementById("x2").value==="")?undefined:parseFloat(document.getElementById("x2").value);
   var y1 = document.getElementById("y1").value?(document.getElementById("y1").value.trim()=="auto")?"auto":parseFloat(document.getElementById("y1").value):undefined;
   var y2 = document.getElementById("y2").value?(document.getElementById("y2").value.trim()=="auto")?"auto":parseFloat(document.getElementById("y2").value):undefined;
-
-  document.write(x1);
-  var sub= x2-x1;
+var x11=document.getElementById("x1").value;
+  var x22=document.getElementById("x2").value;
+  
+  document.write(x11);
+  var sub= x22-x11;
   document.write(sub);
   document.write("mad");
   
