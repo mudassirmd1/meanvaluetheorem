@@ -10,6 +10,14 @@ function simplifyText(event) {
   var y1 = document.getElementById("y1").value?(document.getElementById("y1").value.trim()=="auto")?"auto":parseFloat(document.getElementById("y1").value):undefined;
   var y2 = document.getElementById("y2").value?(document.getElementById("y2").value.trim()=="auto")?"auto":parseFloat(document.getElementById("y2").value):undefined;
 
+  document.write(x1);
+  var sub= x2-x1;
+  document.write(sub);
+  document.write("mad");
+  
+  
+  
+  
   var derive = false;
   if (input.lastIndexOf("derive")!=-1) {
     derive=true;
