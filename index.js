@@ -56,7 +56,7 @@ function simplifyText(event) {
       if (derive) {
         var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formul4a";
-        derivativeFormula.innerHTML = "y' diof = " + derivative.prettyFormula();
+        derivativeFormula.innerHTML = "f(x)' = " + derivative.prettyFormula();
         document.getElementById("result").appendChild(derivativeFormula);
         document.getElementById("result").appendChild(derivativeGraph.getCanvas());
 
@@ -64,8 +64,18 @@ function simplifyText(event) {
 
 
       }
+      
+      var derivativeFormula = document.createElement("div");
+        derivativeFormula.className = "formul4a";
+        derivativeFormula.innerHTML = derivative.prettyFormula()+"=f(b)-f(a)/(b-a)";
+        
+
+        
+
+      
       var inputFormula = document.createElement("div");
       inputFormula.className = "formula";
+      x=5;
       inputFormula.innerHTML = "y = " + inputFunction.simplify().prettyFormula();
       document.getElementById("result").appendChild(inputFormula);
       document.getElementById("result").appendChild(graph.getCanvas());
