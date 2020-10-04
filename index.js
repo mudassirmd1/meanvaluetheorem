@@ -24,7 +24,7 @@ console.log(replace);
 let aa='('+a+')';
 let final= replace.replace('x',aa);
 console.log(final);
-  document.getelementbyID("result").innerHTML=(final);
+  document.getelementbyID("results").innerHTML=(final);
 }
 
 subs("d/dx(x^3)+5x",2);
