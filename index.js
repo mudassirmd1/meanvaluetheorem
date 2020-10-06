@@ -70,8 +70,8 @@ function simplifyText(event) {
       var derivativeFormula = document.createElement("div");
         derivativeFormula.className = "formul4a";
         derivativeFormula.innerHTML = derivative.prettyFormula()+"=f(b)-f(a)/(b-a)";
-        
-        document.getElementById("result").appendChild(derivativeFormula);
+        let replace = derivativeFormula.replace('x',2);
+        document.getElementById("result").appendChild(replace);
         
         }
 
