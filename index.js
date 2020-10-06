@@ -1,36 +1,4 @@
 
-
-function subs(stt,a){
-
-
-var string= stt.substring(4,100);
-console.log(string);
-var position = string.indexOf('x^');
-console.log(position);
-var pos= position +2;
-console.log(pos);
-var pose=string.substring(pos,pos+1);
-console.log(pose);
-var pow=Math.pow(a,pose);
-console.log(pow);
-var rep=string.substring(position,pos+1);
-console.log(rep);
-var replace=string.replace(rep,pow);
-console.log(replace);
-let aa='('+a+')';
-let final= replace.replace('x',aa);
-console.log(final);
-  
-  document.getelementbyID("results").innerHTML=(final);
-return final;
-}
-
-
-subs("d/dx(x^3)+5x",2);
-
-  
-  
-
 function simplifyText(event) {
 
   //Grabs data from input elements
